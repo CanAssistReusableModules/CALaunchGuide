@@ -15,31 +15,31 @@
 
 _Example
 
-> - LaunchGuideViewController *launchGuideViewController = [LaunchGuideViewController alloc] initWithNibName:@"LaunchGuideViewController" bundle:nil];
-> - [self.window.rootViewController presentModalViewController:launchGuideViewController animated:NO];
+> LaunchGuideViewController *launchGuideViewController = [LaunchGuideViewController alloc] initWithNibName:@"LaunchGuideViewController" bundle:nil];
+> [self.window.rootViewController presentModalViewController:launchGuideViewController animated:NO];
 
 ## Customization
 
 _Inside LaunchGuideViewController.m_
 
-> - static NSUInteger const NumberOfPages = 6;
-> - static NSUInteger const PageCornerRadians = 5;
+> static NSUInteger const NumberOfPages = 6;
+> static NSUInteger const PageCornerRadians = 5;
 
-> - static NSUInteger const IPadNameLabelFontSize = 25;
-> - static NSUInteger const IPadDetailLabelFontSize = 24;
+> static NSUInteger const IPadNameLabelFontSize = 25;
+> static NSUInteger const IPadDetailLabelFontSize = 24;
 
-> - static NSUInteger const IPhoneNameLabelFontSize = 18;
-> - static NSUInteger const IPhoneDetailLabelFontSize = 16;
+> static NSUInteger const IPhoneNameLabelFontSize = 18;
+> static NSUInteger const IPhoneDetailLabelFontSize = 16;
 
-> -- (void)viewDidLoad
-> -{		.
-> -			.
-> -			.
-> -		self.guideImageArray = [[NSArray alloc] initWithObjects: ];
-> -		self.nameArray = [[NSArray alloc] initWithObjects: ];
-> -		self.detailArray = [[NSArray alloc] initWithObjects: ];
-> - 		.
-> - 		.
+> - (void)viewDidLoad
+> {		.
+> 			.
+> 			.
+> 	self.guideImageArray = [[NSArray alloc] initWithObjects: ];
+> 	self.nameArray = [[NSArray alloc] initWithObjects: ];
+> 	self.detailArray = [[NSArray alloc] initWithObjects: ];
+> 		.
+> 		.
 > -}
 
 ## License
