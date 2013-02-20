@@ -32,17 +32,14 @@ _Inside LaunchGuideViewController.m_
 > static NSUInteger const IPhoneDetailLabelFontSize = 16;
 
 > (void)viewDidLoad
-> {		.
-> 		.
-> 		.
+> {	
+
 > 	self.guideImageArray = [[NSArray alloc] initWithObjects: ];
 
 > 	self.nameArray = [[NSArray alloc] initWithObjects: ];
 
 > 	self.detailArray = [[NSArray alloc] initWithObjects: ];
 
-> 		.
-> 		.
 > }
 
 ## License
