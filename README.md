@@ -36,8 +36,11 @@ _Inside LaunchGuideViewController.m_
 > 		.
 > 		.
 > 	self.guideImageArray = [[NSArray alloc] initWithObjects: ];
+
 > 	self.nameArray = [[NSArray alloc] initWithObjects: ];
+
 > 	self.detailArray = [[NSArray alloc] initWithObjects: ];
+
 > 		.
 > 		.
 > }
