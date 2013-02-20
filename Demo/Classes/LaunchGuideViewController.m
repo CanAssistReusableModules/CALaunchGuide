@@ -8,7 +8,7 @@
 
 #import "LaunchGuideViewController.h"
 
-static NSUInteger const NumberOfPages = 6;
+static NSUInteger const NumberOfPages = 3;
 static NSUInteger const PageCornerRadians = 5;
 
 static NSUInteger const IPadNameLabelFontSize = 25;
@@ -58,26 +58,17 @@ static NSUInteger const IPhoneDetailLabelFontSize = 16;
                        [UIImage imageNamed:@"no1@2x.png"],
                        [UIImage imageNamed:@"no2@2x.png"],
                        [UIImage imageNamed:@"no3@2x.png"],
-                       [UIImage imageNamed:@"no4@2x.png"],
-                       [UIImage imageNamed:@"no5@2x.png"],
-                        [UIImage imageNamed:@"no6@2x.png"],
                        nil];
     
     self.nameArray = [[NSArray alloc] initWithObjects:
-                    @"Welcome to Task Manager",
-                    @"Your personal tasks",
-                    @"Setting reminders",
-                    @"Alerting",
-                    @"Completing tasks",
-                    @"What to do from here?",
+                    @"Welcome to xxxxxxx",
+                    @"xxxx xxxx xxxxx",
+                    @"xxxx xxxxx xxxxx",
                     nil];
     
     self.detailArray = [[NSArray alloc] initWithObjects:
-                      @"The Task Manager is designed to help you remember what you have to do every day, when you have to do it, and show you how to get it done. ",
-                      @"You create your own tasks that describe what you need to do. Each task can be broken down into a series of steps, with a photo, description, or audio recording.",
-                      @"Tasks can be scheduled to remind you to do them on certain days. The To-do list shows all the tasks that are scheduled for today and lets you add new schedules.",
-                      @"You will get an alert when a task is scheduled to occur. Opening the notification will launch that task.",
-                      @"When you are done a task, you can mark it as complete. The to-do list will show you whether you’ve completed the scheduled tasks.",
+                      @"fadsfjdsf;jsflj fasdklfjsadfjd sfsadfjdslkfj adsfljsdaf sadfljs.",
+                      @"eernefsdajfo  rewrfnsadoi nwieqn ajfnq fasdf qjasnf qnsdiofjsanf qfnwfijdfas nfq fqjdn.",
                       @"",
                       nil];
     
@@ -131,7 +122,7 @@ static NSUInteger const IPhoneDetailLabelFontSize = 16;
 }
 
 -(void)nextView{
-    if (currentPage<5) {
+    if (currentPage<NumberOfPages-1) {
         [self.prevButton setHidden:NO];
         CATransition *animation = [CATransition animation];
         animation.duration = 0.25;
@@ -146,7 +137,7 @@ static NSUInteger const IPhoneDetailLabelFontSize = 16;
         self.guideImage.image = [self.guideImageArray objectAtIndex:currentPage];
         self.nameLabel.text = [self.nameArray objectAtIndex:currentPage];
         self.detailLabel.text = [self.detailArray objectAtIndex:currentPage];
-        if (currentPage==5 && self.startButton.hidden == YES) {
+        if (currentPage==NumberOfPages-1 && self.startButton.hidden == YES) {
             
             CATransition *animation = [CATransition animation];
             animation.duration = 0.25;
@@ -155,7 +146,7 @@ static NSUInteger const IPhoneDetailLabelFontSize = 16;
             [self.startButton.layer addAnimation:animation forKey:@"imageTransition"];
             [self.startButton setHidden:NO];
         }
-        if (currentPage==5) {
+        if (currentPage==NumberOfPages-1) {
             [self showGetStartedView];
         }
     }
@@ -182,7 +173,7 @@ static NSUInteger const IPhoneDetailLabelFontSize = 16;
         if (currentPage==0) {
             [self.prevButton setHidden:YES];
         }
-        if (currentPage!=5) {
+        if (currentPage!=NumberOfPages-1) {
             [self hideGetStartedView];
         }
     }

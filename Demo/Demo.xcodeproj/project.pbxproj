@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0CE261C16D545E500FBA360 /* LaunchGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CE261116D545E500FBA360 /* LaunchGuideViewController.m */; };
+		D0CE261D16D545E500FBA360 /* LaunchGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0CE261216D545E500FBA360 /* LaunchGuideViewController.xib */; };
+		D0CE261E16D545E500FBA360 /* 02-arrow-east@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CE261416D545E500FBA360 /* 02-arrow-east@2x.png */; };
+		D0CE261F16D545E500FBA360 /* 09-arrow-west@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CE261516D545E500FBA360 /* 09-arrow-west@2x.png */; };
+		D0CE262016D545E500FBA360 /* addtask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CE261616D545E500FBA360 /* addtask@2x.png */; };
+		D0CE262116D545E500FBA360 /* firsttask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CE261716D545E500FBA360 /* firsttask@2x.png */; };
+		D0CE262216D545E500FBA360 /* help_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CE261816D545E500FBA360 /* help_black@2x.png */; };
+		D0CE262316D545E500FBA360 /* no1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CE261916D545E500FBA360 /* no1@2x.png */; };
+		D0CE262416D545E500FBA360 /* no2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CE261A16D545E500FBA360 /* no2@2x.png */; };
+		D0CE262516D545E500FBA360 /* no3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0CE261B16D545E500FBA360 /* no3@2x.png */; };
 		D0D748C016D4439400471965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D748BF16D4439400471965 /* UIKit.framework */; };
 		D0D748C216D4439400471965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D748C116D4439400471965 /* Foundation.framework */; };
 		D0D748C416D4439400471965 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D748C316D4439400471965 /* CoreGraphics.framework */; };
@@ -20,22 +30,20 @@
 		D0D748DC16D4439400471965 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D748DA16D4439400471965 /* ViewController_iPhone.xib */; };
 		D0D748DF16D4439400471965 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D748DD16D4439400471965 /* ViewController_iPad.xib */; };
 		D0D748FA16D444FF00471965 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D748F916D444FF00471965 /* QuartzCore.framework */; };
-		D0D7490A16D4460C00471965 /* 02-arrow-east@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D748FC16D4460C00471965 /* 02-arrow-east@2x.png */; };
-		D0D7490B16D4460C00471965 /* 09-arrow-west@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D748FD16D4460C00471965 /* 09-arrow-west@2x.png */; };
-		D0D7490C16D4460C00471965 /* addtask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D748FE16D4460C00471965 /* addtask@2x.png */; };
-		D0D7490D16D4460C00471965 /* firsttask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D748FF16D4460C00471965 /* firsttask@2x.png */; };
-		D0D7490E16D4460C00471965 /* help_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D7490016D4460C00471965 /* help_black@2x.png */; };
-		D0D7490F16D4460C00471965 /* LaunchGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D7490216D4460C00471965 /* LaunchGuideViewController.m */; };
-		D0D7491016D4460C00471965 /* LaunchGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D7490316D4460C00471965 /* LaunchGuideViewController.xib */; };
-		D0D7491116D4460C00471965 /* no1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D7490416D4460C00471965 /* no1@2x.png */; };
-		D0D7491216D4460C00471965 /* no2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D7490516D4460C00471965 /* no2@2x.png */; };
-		D0D7491316D4460C00471965 /* no3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D7490616D4460C00471965 /* no3@2x.png */; };
-		D0D7491416D4460C00471965 /* no4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D7490716D4460C00471965 /* no4@2x.png */; };
-		D0D7491516D4460C00471965 /* no5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D7490816D4460C00471965 /* no5@2x.png */; };
-		D0D7491616D4460C00471965 /* no6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D7490916D4460C00471965 /* no6@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0CE261016D545E500FBA360 /* LaunchGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchGuideViewController.h; sourceTree = "<group>"; };
+		D0CE261116D545E500FBA360 /* LaunchGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchGuideViewController.m; sourceTree = "<group>"; };
+		D0CE261216D545E500FBA360 /* LaunchGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchGuideViewController.xib; sourceTree = "<group>"; };
+		D0CE261416D545E500FBA360 /* 02-arrow-east@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-arrow-east@2x.png"; sourceTree = "<group>"; };
+		D0CE261516D545E500FBA360 /* 09-arrow-west@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09-arrow-west@2x.png"; sourceTree = "<group>"; };
+		D0CE261616D545E500FBA360 /* addtask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addtask@2x.png"; sourceTree = "<group>"; };
+		D0CE261716D545E500FBA360 /* firsttask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firsttask@2x.png"; sourceTree = "<group>"; };
+		D0CE261816D545E500FBA360 /* help_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help_black@2x.png"; sourceTree = "<group>"; };
+		D0CE261916D545E500FBA360 /* no1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no1@2x.png"; sourceTree = "<group>"; };
+		D0CE261A16D545E500FBA360 /* no2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no2@2x.png"; sourceTree = "<group>"; };
+		D0CE261B16D545E500FBA360 /* no3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no3@2x.png"; sourceTree = "<group>"; };
 		D0D748BC16D4439400471965 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D748BF16D4439400471965 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D0D748C116D4439400471965 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,20 +62,6 @@
 		D0D748DB16D4439400471965 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		D0D748DE16D4439400471965 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		D0D748F916D444FF00471965 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		D0D748FC16D4460C00471965 /* 02-arrow-east@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-arrow-east@2x.png"; sourceTree = "<group>"; };
-		D0D748FD16D4460C00471965 /* 09-arrow-west@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09-arrow-west@2x.png"; sourceTree = "<group>"; };
-		D0D748FE16D4460C00471965 /* addtask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addtask@2x.png"; sourceTree = "<group>"; };
-		D0D748FF16D4460C00471965 /* firsttask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firsttask@2x.png"; sourceTree = "<group>"; };
-		D0D7490016D4460C00471965 /* help_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help_black@2x.png"; sourceTree = "<group>"; };
-		D0D7490116D4460C00471965 /* LaunchGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchGuideViewController.h; sourceTree = "<group>"; };
-		D0D7490216D4460C00471965 /* LaunchGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchGuideViewController.m; sourceTree = "<group>"; };
-		D0D7490316D4460C00471965 /* LaunchGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchGuideViewController.xib; sourceTree = "<group>"; };
-		D0D7490416D4460C00471965 /* no1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no1@2x.png"; sourceTree = "<group>"; };
-		D0D7490516D4460C00471965 /* no2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no2@2x.png"; sourceTree = "<group>"; };
-		D0D7490616D4460C00471965 /* no3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no3@2x.png"; sourceTree = "<group>"; };
-		D0D7490716D4460C00471965 /* no4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no4@2x.png"; sourceTree = "<group>"; };
-		D0D7490816D4460C00471965 /* no5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no5@2x.png"; sourceTree = "<group>"; };
-		D0D7490916D4460C00471965 /* no6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no6@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +79,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0CE260F16D545E500FBA360 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0CE261016D545E500FBA360 /* LaunchGuideViewController.h */,
+				D0CE261116D545E500FBA360 /* LaunchGuideViewController.m */,
+				D0CE261216D545E500FBA360 /* LaunchGuideViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D0CE261316D545E500FBA360 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D0CE261416D545E500FBA360 /* 02-arrow-east@2x.png */,
+				D0CE261516D545E500FBA360 /* 09-arrow-west@2x.png */,
+				D0CE261616D545E500FBA360 /* addtask@2x.png */,
+				D0CE261716D545E500FBA360 /* firsttask@2x.png */,
+				D0CE261816D545E500FBA360 /* help_black@2x.png */,
+				D0CE261916D545E500FBA360 /* no1@2x.png */,
+				D0CE261A16D545E500FBA360 /* no2@2x.png */,
+				D0CE261B16D545E500FBA360 /* no3@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		D0D748B316D4439400471965 = {
 			isa = PBXGroup;
 			children = (
-				D0D748FB16D4460C00471965 /* CALaunchGuide */,
+				D0CE260F16D545E500FBA360 /* Classes */,
+				D0CE261316D545E500FBA360 /* images */,
 				D0D748C516D4439400471965 /* Demo */,
 				D0D748BE16D4439400471965 /* Frameworks */,
 				D0D748BD16D4439400471965 /* Products */,
@@ -140,28 +160,6 @@
 				D0D748D516D4439400471965 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D0D748FB16D4460C00471965 /* CALaunchGuide */ = {
-			isa = PBXGroup;
-			children = (
-				D0D748FC16D4460C00471965 /* 02-arrow-east@2x.png */,
-				D0D748FD16D4460C00471965 /* 09-arrow-west@2x.png */,
-				D0D748FE16D4460C00471965 /* addtask@2x.png */,
-				D0D748FF16D4460C00471965 /* firsttask@2x.png */,
-				D0D7490016D4460C00471965 /* help_black@2x.png */,
-				D0D7490116D4460C00471965 /* LaunchGuideViewController.h */,
-				D0D7490216D4460C00471965 /* LaunchGuideViewController.m */,
-				D0D7490316D4460C00471965 /* LaunchGuideViewController.xib */,
-				D0D7490416D4460C00471965 /* no1@2x.png */,
-				D0D7490516D4460C00471965 /* no2@2x.png */,
-				D0D7490616D4460C00471965 /* no3@2x.png */,
-				D0D7490716D4460C00471965 /* no4@2x.png */,
-				D0D7490816D4460C00471965 /* no5@2x.png */,
-				D0D7490916D4460C00471965 /* no6@2x.png */,
-			);
-			name = CALaunchGuide;
-			path = Demo/CALaunchGuide/CALaunchGuide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,18 +219,15 @@
 				D0D748D616D4439400471965 /* Default-568h@2x.png in Resources */,
 				D0D748DC16D4439400471965 /* ViewController_iPhone.xib in Resources */,
 				D0D748DF16D4439400471965 /* ViewController_iPad.xib in Resources */,
-				D0D7490A16D4460C00471965 /* 02-arrow-east@2x.png in Resources */,
-				D0D7490B16D4460C00471965 /* 09-arrow-west@2x.png in Resources */,
-				D0D7490C16D4460C00471965 /* addtask@2x.png in Resources */,
-				D0D7490D16D4460C00471965 /* firsttask@2x.png in Resources */,
-				D0D7490E16D4460C00471965 /* help_black@2x.png in Resources */,
-				D0D7491016D4460C00471965 /* LaunchGuideViewController.xib in Resources */,
-				D0D7491116D4460C00471965 /* no1@2x.png in Resources */,
-				D0D7491216D4460C00471965 /* no2@2x.png in Resources */,
-				D0D7491316D4460C00471965 /* no3@2x.png in Resources */,
-				D0D7491416D4460C00471965 /* no4@2x.png in Resources */,
-				D0D7491516D4460C00471965 /* no5@2x.png in Resources */,
-				D0D7491616D4460C00471965 /* no6@2x.png in Resources */,
+				D0CE261D16D545E500FBA360 /* LaunchGuideViewController.xib in Resources */,
+				D0CE261E16D545E500FBA360 /* 02-arrow-east@2x.png in Resources */,
+				D0CE261F16D545E500FBA360 /* 09-arrow-west@2x.png in Resources */,
+				D0CE262016D545E500FBA360 /* addtask@2x.png in Resources */,
+				D0CE262116D545E500FBA360 /* firsttask@2x.png in Resources */,
+				D0CE262216D545E500FBA360 /* help_black@2x.png in Resources */,
+				D0CE262316D545E500FBA360 /* no1@2x.png in Resources */,
+				D0CE262416D545E500FBA360 /* no2@2x.png in Resources */,
+				D0CE262516D545E500FBA360 /* no3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +241,7 @@
 				D0D748CC16D4439400471965 /* main.m in Sources */,
 				D0D748D016D4439400471965 /* AppDelegate.m in Sources */,
 				D0D748D916D4439400471965 /* ViewController.m in Sources */,
-				D0D7490F16D4460C00471965 /* LaunchGuideViewController.m in Sources */,
+				D0CE261C16D545E500FBA360 /* LaunchGuideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +374,7 @@
 				D0D748E416D4439400471965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
