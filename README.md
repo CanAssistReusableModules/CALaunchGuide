@@ -6,7 +6,7 @@
 2. _Copy the "Classes" and "images" folder to your project._
 3. _Right click your project._
 4. _Click "Add files to "your project" "._
-5 _Select "Classes" and "images" folders._
+5. _Select "Classes" and "images" folders._
 6. _Select "Create groups for any added folders" and click "Add"._
 7. _left lick your project->Build Phases->Link Binary With Libraries->Add "QuartzCore.framework"_
 
