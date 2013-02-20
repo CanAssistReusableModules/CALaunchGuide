@@ -23,15 +23,18 @@ _Example
 _Inside LaunchGuideViewController.m_
 
 > static NSUInteger const NumberOfPages = 6;
+
 > static NSUInteger const PageCornerRadians = 5;
 
 > static NSUInteger const IPadNameLabelFontSize = 25;
+
 > static NSUInteger const IPadDetailLabelFontSize = 24;
 
 > static NSUInteger const IPhoneNameLabelFontSize = 18;
+
 > static NSUInteger const IPhoneDetailLabelFontSize = 16;
 
-> (void)viewDidLoad
+> -(void)viewDidLoad
 > {	
 
 > 	self.guideImageArray = [[NSArray alloc] initWithObjects: ];
@@ -41,7 +44,4 @@ _Inside LaunchGuideViewController.m_
 > 	self.detailArray = [[NSArray alloc] initWithObjects: ];
 
 > }
-
-## License
-
 
