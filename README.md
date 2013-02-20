@@ -16,6 +16,7 @@
 _Example
 
 > LaunchGuideViewController *launchGuideViewController = [LaunchGuideViewController alloc] initWithNibName:@"LaunchGuideViewController" bundle:nil];
+
 > [self.window.rootViewController presentModalViewController:launchGuideViewController animated:NO];
 
 ## Customization
